@@ -74,6 +74,9 @@ echo $class_list[0]['last_name'];
 
 var_dump(json_encode($class_list));
 
+//json_decode() is used when you have an object and you want to turn the object int an associtive array
+
+
 
 
 
