@@ -1,7 +1,12 @@
-<!-- <img src="feedbackProject\img\bryhmologo.png"  alt="LOGO"> -->
+<!-- ==== INLUDE THE HEADER SECTION -->
+<?php require('inc/header.php');?>
+
+
+
+   <!-- <img src="feedbackProject\img\bryhmologo.png"  alt="LOGO"> -->
          <img src="http://localhost/ALLPHP/feedbackproject/img/bryhmologo.png" class="w-25 mb-3" alt=""> 
-        <h2>feedback</h2>
-        <p class="lead text-center">Leave feedback for CODEWITHBRYHMO</p>
+        <h2>Feedback</h2>
+        <p class="lead text-center">Leave Feedback for CODEWITHBRYHMO</p>
         <form action="" class="mt-4 w-75">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
@@ -9,7 +14,7 @@
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Name">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
             </div>
             <div class="mb-3">
                 <label for="body" class="form-label">Feedback</label>
@@ -20,3 +25,6 @@
             </div>
         </form>
 
+
+
+<?php require('inc/footer.php');?>
